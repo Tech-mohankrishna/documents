@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Mythology Pipeline</title>
+<style>
+  body { max-width: 720px; margin: 60px auto; padding: 0 20px;
+         font: 16px/1.7 system-ui, -apple-system, Segoe UI, sans-serif; color: #222; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 34px; }
+  .date { color: #666; margin-bottom: 32px; }
+  code { background: #f4f4f5; padding: 1px 5px; border-radius: 3px; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="date">Mythology Pipeline · last updated 22 November 2026</p>
+
+<h2>What this application is</h2>
+<p>
+  Mythology Pipeline is a private, single-user tool that publishes short videos
+  to one YouTube channel owned and operated by its author. It is not offered to
+  the public, has no sign-up, and has no users other than its author.
+</p>
+
+<h2>What data it accesses</h2>
+<p>
+  The application uses the YouTube Data API v3 with the author's own Google
+  account, under these scopes:
+</p>
+<ul>
+  <li><code>youtube.upload</code> — to upload a video file</li>
+  <li><code>youtube.force-ssl</code> — to set a thumbnail, attach a caption
+      track, and set a scheduled publication time on the videos it uploads</li>
+</ul>
+<p>
+  It reads the authenticated channel's name and ID once, at setup, solely to
+  confirm it is connected to the intended channel.
+</p>
+
+<h2>What data it collects, stores or shares</h2>
+<p>
+  <strong>None from any third party.</strong> The application has no users
+  besides its author, collects no personal information from anyone, and
+  operates no server, database or analytics.
+</p>
+<p>
+  An OAuth refresh token is stored in a local file on the author's own computer
+  so the tool can upload without re-authenticating each time. That file is
+  excluded from version control. The token is never transmitted anywhere other
+  than to Google, and is never shared with any third party.
+</p>
+
+<h2>Third-party services</h2>
+<p>
+  Video and audio are produced locally. Narration is synthesised using
+  ElevenLabs. Finished videos are uploaded to YouTube. No viewer or visitor
+  data is processed by this application at any point.
+</p>
+
+<h2>Data retention and removal</h2>
+<p>
+  Access can be withdrawn at any time by the author at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+  which immediately invalidates the stored token. Deleting the local
+  environment file removes every stored credential.
+</p>
+
+<h2>Children</h2>
+<p>
+  The application is a developer tool and is not directed at children.
+</p>
+
+<h2>Changes</h2>
+<p>
+  Any change to this policy will be published on this page with a revised date.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Through the YouTube channel this application publishes to:
+  <a href="https://www.youtube.com/@365_Motivation">@365_Motivation</a>.
+</p>
+</body>
+</html>
